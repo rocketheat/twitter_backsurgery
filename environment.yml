@@ -1,0 +1,6 @@
+name: twitter
+dependencies:
+- python=3.6.0
+- pip:
+  - twitter==1.18.0
+  - schedule==0.5.0
