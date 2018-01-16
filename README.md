@@ -2,6 +2,9 @@
 
 The key word for search is #backsurgery
 
+The application get more data every 3 hours.
+The first time will acquire data is not time 0 but rather at 3 hours.... 
+
 Usage:
 1. Install python anaconda from https://anaconda.org/anaconda/python
 2. create a folder and name it what you want
