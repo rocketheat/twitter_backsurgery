@@ -33,7 +33,7 @@ def twitterschedule():
     with open('./data.txt', 'a') as outfile:
         json.dump(interval, outfile)
 
-schedule.every(1).minutes.do(twitterschedule)
+schedule.every(180).minutes.do(twitterschedule)
 
 while True:
     schedule.run_pending()
